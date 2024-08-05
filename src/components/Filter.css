@@ -1,5 +1,6 @@
 .select_GC {
   display: flex;
+  gap: 8px;
   flex-direction: row-reverse;
   padding: 1rem;
 }
