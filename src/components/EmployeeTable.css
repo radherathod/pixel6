@@ -1,0 +1,25 @@
+.employee-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1rem 0;
+}
+
+.employee-table th,
+.employee-table td {
+  border: 1px solid #ddd;
+  padding: 0.5rem;
+}
+
+.employee-table th {
+  background-color: #f4f4f4;
+  cursor: pointer;
+}
+
+.employee-table img {
+  display: block;
+  margin: 0 auto;
+}
+/* .employee-table BiSort {
+  height: 12px;
+  margin: -1px;
+} */

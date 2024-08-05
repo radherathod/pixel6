@@ -1,0 +1,5 @@
+.select_GC {
+  display: flex;
+  flex-direction: row-reverse;
+  padding: 1rem;
+}
