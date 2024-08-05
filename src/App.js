@@ -1,8 +1,10 @@
 import React, { useEffect, useState } from "react";
+import "./App.css";
 import axios from "axios";
 import Logo from "./components/Logo";
 import Filter from "./components/Filter";
 import EmployeeTable from "./components/EmployeeTable";
+import MenuBar from "./components/MenuBar";
 
 const App = () => {
   const [data, setData] = useState([]);
@@ -58,7 +60,10 @@ const App = () => {
 
   return (
     <div style={{ padding: "2rem" }}>
-      <Logo />
+      <div className="Nav">
+        <Logo />
+        <MenuBar />
+      </div>
       <Filter
         onGenderChange={handleGenderChange}
         onCountryChange={handleCountryChange}
